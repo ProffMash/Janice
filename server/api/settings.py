@@ -25,12 +25,12 @@ SECRET_KEY = 'django-insecure-o65(mq-mke8+yryywu!-!v3t33kl3yhzdy^tec-=32l)lc4@m-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['janapi.onrender.com', '127.0.0.1', 'localhost']
 
 CORS_ALLOWED_ORIGINS = [
    'http://localhost:5173',
-   '',
-   '',
+   'https://medicare-delta-fawn.vercel.app',
+   'https://janapi.onrender.com',
 ]
 
 CORS_ALLOW_HEADERS = [
